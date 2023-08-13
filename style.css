@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#H1{
+    font-size: 48px ;
+    padding-top: 100px;
+    color: rgba(128, 252, 98, 1);
+    
+}
+
+#H2{
+    font-size: 24px;
+    color: white ;
+}
+
+img{
+    width: 200px;
+}
+
+.hero{
+    background-image:  url(img/jezero\ park.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 50px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+.jezera{
+    background: rgba(41, 55, 37, 1);
+    height: 300px;
+    padding-top: 100px;
+
+}
+
+.jezera-slike{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.border{
+    border: none;
+    border-radius: 10%;
+}
+
+.jezera-txt{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#tri-jezera{
+    padding-bottom: 10px;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+.kartica{
+    width: 500px;
+    margin: 50px auto;
+    
+    padding: 20px;
+    background-color: rgba(41, 55, 37, 1);
+    color: white;
+
+    border: none;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    border-bottom: 3px solid rgba(128, 252, 98, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#profilna{
+    height: 200px;
+    border: none;
+    border-radius: 15%;
+    margin-right: 30px;
+}
+
+#predsjednik{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#citat{
+    font-size: 15px;
+    font-style: italic;
+}
